@@ -71,6 +71,9 @@ body {
       Header
 =========================================
 */
+.menu-open {
+  display: none;
+}
 
 .top-line .container {
   display: flex;
