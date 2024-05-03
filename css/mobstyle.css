@@ -401,11 +401,17 @@ margin-bottom: 0;
     
 }
 
-.list .placement-in-a-line .op-team {
+.list.placement-in-a-line.op-team {
+  display: flex;
+  flex-direction: column;
+  
+  list-style: none;
   justify-content: center;
-  align-content: center;
-  margin: 0;
+  margin: 0 auto;
+
 }
+
+
 .link-team-icons:hover,
 .link-team-icons:focus {
   background-color: var(--ocean);
@@ -474,6 +480,15 @@ height: 88px;
 }
 .cus-container {
   margin-top: 0;
+}
+
+.list.placement-in-a-line.customers-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 16px;
+  margin: 0 auto;
 }
 /* 
 =============================================
