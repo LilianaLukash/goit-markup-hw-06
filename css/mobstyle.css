@@ -1057,4 +1057,136 @@ background-color: #31d0aa;
 }
 .modal-link {margin-left: 4px;
 }
+
+
+/* Menu-gamb */
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 35px 40px 40px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  color: #fff;
+}
+.mobile-menu {
+  margin-bottom: auto;
+}
+.mobile-menu li:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mobile-menu .link {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue, #2e2f42);
+}
+.mobile-menu .link.active {
+  color: #404bbf;
+}
+.mobile-contacts {
+  margin-bottom: 48px;
+}
+.mobile-contacts li:not(:last-child) {
+  margin-bottom: 40px;
+}
+.mobile-contacts .link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+@media only screen and (min-width: 428px) {
+  .mobile-contacts .link.accent {
+    font-size: 36px;
+    line-height: 40px;
+    color: #404bbf;
+  }
+}
+@media only screen and (max-width: 427px) {
+  .mobile-socials {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 428px) {
+  .mobile-socials {
+    gap: 56px;
+  }
+}
+.menu-toggle-icon {
+  stroke: #2e2f42;
+}
+.mobile-menu .link:hover,
+.mobile-menu .link:focus {
+  color: #404bbf;
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.link {
+  transition: color var(--timimg-function);
+
+}
+
+.socials-link.link.link-icons {
+  transition: background-color var(--timimg-function), border var(--timimg-function);
+  width: 40px;
+  height: 40px;
+}
+
+.menu-container>.social-footer-links {
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: flex-start;
+
+}
+ 
+
 }

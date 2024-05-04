@@ -1033,4 +1033,28 @@ background-color: #31d0aa;
 }
 .modal-link {margin-left: 4px;
 }
+
+/* Menu-gamb */
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+.menu-toggle {
+  display: none;
+}
+.menu-container {
+  display:none;
+}
+
 }
