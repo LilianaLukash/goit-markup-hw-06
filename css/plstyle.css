@@ -380,6 +380,7 @@ color: var(--navy-blue);
   background: var(--white);
   text-align: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
 }
 
 .card h3 {
@@ -454,8 +455,11 @@ color: var(--navy-blue);
 }
 
 .customers-link-list {
-  width: 168px;
-height: 88px;
+  /* width: 168px;
+height: 88px; */
+
+flex-basis: calc((100% - 2*24px)/3); /* Вычитаем column-gap */
+  max-width: calc((100% - 2*24px)/3);
 
 }
 
@@ -472,6 +476,8 @@ height: 88px;
 }
 .customers-icon {
   fill: currentColor;
+  margin-top: 16px;
+  margin-bottom: 16px;
 
 }
 
