@@ -202,6 +202,18 @@ body {
   /* max-width: 1440px; */
   margin: 0 auto;
 }
+@media 
+  only screen and (min-resolution: 192dpi), 
+  only screen and (min-resolution: 2dppx) {
+  /* Стилі для ретина-дисплеїв */
+  .title-background-box {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero/people-office2.jpg);
+  }
+}
 .title-box .container {
   width: 1358px;
   padding: 188px auto;
