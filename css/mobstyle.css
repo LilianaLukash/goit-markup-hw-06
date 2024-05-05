@@ -463,8 +463,10 @@ margin-bottom: 0;
   margin-bottom: 0;
 }
 .customers-link-list {
-  width: 190px;
-height: 88px;
+  /* width: 190px;
+height: 88px; */
+flex-basis: calc(50% - 24px); /* Вычитаем column-gap */
+  max-width: calc(50% - 24px);
 
 }
 
@@ -482,7 +484,12 @@ height: 88px;
 .customers-icon {
   fill: currentColor;
 
+  margin-top: 16px;
+  margin-bottom: 16px;
+
 }
+
+
 
 .customers-link:hover,
 .customers-link:focus {
