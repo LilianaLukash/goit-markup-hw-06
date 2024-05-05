@@ -37,9 +37,7 @@ body {
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 72px;
+ 
 }
 
 
@@ -301,15 +299,20 @@ letter-spacing: 0.02em;
   color: var(--slate);
 }
 
-.opportunities-title {
+.opportunities-title.team-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
-}
+  margin-bottom: 72px;
 
+}
+.list.placement-in-a-line.op-team {
+  align-items: center;
+
+}
 /* 
 =============================================
    3. What are we doing
@@ -454,7 +457,7 @@ margin-bottom: 0;
   text-transform: capitalize;
   text-align: center;
   color: var(--navy-blue);
-  margin-bottom: 0;
+  margin-bottom: 72px;
 }
 .opportunities-title .team-title {
   margin-bottom: 0;
@@ -663,6 +666,7 @@ gap: 48px 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  display:block;
   text-align: center;
 
   
@@ -716,6 +720,7 @@ justify-content: center;
   flex-direction: column;
   gap: 24px;
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -726,7 +731,7 @@ justify-content: center;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--white);
-  margin-bottom: 16px;
+  
   display:block;
   flex-direction: column;
 }
@@ -756,7 +761,7 @@ justify-content: center;
   height: 40px;
   background: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  
+  border:none;
   color: white;
 }
 
