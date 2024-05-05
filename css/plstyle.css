@@ -79,6 +79,7 @@ body {
   display: flex;
   align-items: center; 
   border-bottom: 1px solid var(--cornflower);
+
 }
 
 
@@ -213,7 +214,7 @@ body {
 
 .title-box .container {
   width: 1358px;
-  padding: 188px auto;
+  padding: 112px 0;
   
 }
 
@@ -221,7 +222,7 @@ body {
   font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
-
+max-width: 496px;
 line-height: 60px; 
 line-height: 1.07143;
 letter-spacing: 0.02em;
@@ -263,7 +264,9 @@ color: #fff;
 =============================================
 */
 .main-advantages-section {
-  padding: 96px 16px;
+
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 
@@ -457,9 +460,8 @@ color: var(--navy-blue);
 }
 .container.cus-conteiner {
  
-  max-width: 768px;
-  padding-right: 108px;
-  padding-left: 108px;
+  max-width: 584px;
+  
 }
 
 .cus-title {
@@ -686,7 +688,9 @@ gap: 48px 24px;
 
 .footer-box {
   background: var(--navy-blue);
-  padding: 96px 108px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  
   
 }
 .footer-title{
@@ -717,7 +721,8 @@ flex-wrap: wrap;
 align-items: baseline;
 row-gap: 72px;
 column-gap: 24px;
-padding-left: 108px;
+
+max-width: 584px;
 }
 
 .forst-footer {

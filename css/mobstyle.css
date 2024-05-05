@@ -70,10 +70,14 @@ body {
       Header
 =========================================
 */
+.top-line {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 
 .top-line .container {
   display: flex;
-  align-items: flex-start; 
+  align-items: center; 
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -108,8 +112,8 @@ body {
 
 .menu-open {
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 11px;
+  right: 8px;
   background-color: white;
   border: none;
   color: #f4f4fd;
@@ -124,8 +128,7 @@ body {
   text-transform: uppercase;
   color: var(--iris);
   margin-right:  76px;
-  margin-bottom: 23.5px;
-  margin-top: 25.5px;
+
   text-align: left;
 }
 
@@ -878,7 +881,7 @@ background-color: #31d0aa;
   border-radius: 8px; /* Закруглені кути модального вікна */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь для модального вікна */
   max-width: 500px; /* Максимальна ширина модального вікна */
-  width: 408px; /* Ширина модального вікна */
+  min-width: 310px; /* Ширина модального вікна */
   height: 584px;
   position: absolute;
   top: 50%;
@@ -1099,6 +1102,7 @@ background-color: #31d0aa;
   background-color: transparent;
   cursor: pointer;
   border: none;
+
   border-radius: 50%;
   outline: none;
 }
@@ -1185,6 +1189,13 @@ background-color: #31d0aa;
 }
 .menu-toggle-icon {
   stroke: #2e2f42;
+}
+
+.mail-l {color: #434455;}
+
+.menu-toggle.js-close-menu {
+  border: 1px solid #8e8f99;
+  padding: 8px;
 }
 .mobile-menu .link:hover,
 .mobile-menu .link:focus {
