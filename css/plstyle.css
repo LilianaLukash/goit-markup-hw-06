@@ -191,7 +191,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/people-office1.jpg);
+    url(../images/hero/Dark-bgtabl1x.jpg);
   background-size: cover; 
  
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/people-office2.jpg);
+      url(../images/hero/Dark-bgtabl2x.jpg);
   }
 }
 
