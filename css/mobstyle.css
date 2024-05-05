@@ -498,6 +498,7 @@ flex-basis: calc(50% - 24px); /* Вычитаем column-gap */
 }
 .cus-container {
   margin-top: 0;
+  max-width: 320px;
 }
 
 .list.placement-in-a-line.customers-list {
@@ -693,6 +694,7 @@ gap: 48px 24px;
   letter-spacing: 0.02em;
   color: var(--white);
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .paragraf-box {
@@ -704,6 +706,7 @@ gap: 48px 24px;
   color: var(--cloud);
   width: 264px;
   margin-top: 16px;
+  text-align: center;
 
   
 }

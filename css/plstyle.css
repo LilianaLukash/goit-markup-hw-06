@@ -154,7 +154,7 @@ body {
 }
 
 .contact-box {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
@@ -205,15 +205,14 @@ body {
 
 .main-title {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
+font-weight: 700;
+font-size: 56px;
 
-  line-height: 40px; 
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #fff;
+line-height: 60px; 
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
   margin-bottom: 36px;
 }
 
@@ -442,6 +441,13 @@ color: var(--navy-blue);
   justify-content: center;
 
 }
+.container.cus-conteiner {
+ 
+  max-width: 768px;
+  padding-right: 108px;
+  padding-left: 108px;
+}
+
 .cus-title {
   font-family: var(--font-family);
   font-weight: 700;
@@ -697,6 +703,7 @@ flex-wrap: wrap;
 align-items: baseline;
 row-gap: 72px;
 column-gap: 24px;
+padding-left: 108px;
 }
 
 .forst-footer {
@@ -748,7 +755,7 @@ column-gap: 24px;
   height: 40px;
   background: #4d5ae5;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  
+  border: none;
   color: white;
 }
 
